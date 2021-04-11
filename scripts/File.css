@@ -1,0 +1,92 @@
+body {
+	background-image: url("photos/background.jpg");
+}
+
+.screenY {
+	margin: 0 auto;
+	text-align: center;
+}
+
+.screenY {
+	display: block;
+	width: 330px;
+	height: 450px;
+	overflow-y: scroll;
+	scroll-behavior: auto;
+}
+
+::-webkit-scrollbar {
+	width: 8px;
+}
+
+scroll-container {
+	height: 40px;
+}
+
+.screenX {
+	max-height: 10px;
+	background-color: red;
+}
+
+.pageY {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+}
+
+.bar1 {
+	background-color: white;
+	border-bottom: 1px solid;
+}
+
+.bar2 {
+	margin-bottom: 10px;
+}
+
+.icons {
+	max-height: 30px;
+	margin-top: 10px;
+}
+
+.textarea {
+	margin-top: 10px;
+	max-width: 150px;
+	border: 1px solid;
+	border-radius: 3px;
+}
+
+.div_photo {
+	max-width: 280px;
+}
+
+#div_container {
+	background-color: white;
+	max-width: 360px;
+	height: 630px;
+	margin: 25px auto auto auto;
+	border: solid 1px;
+}
+
+#photo {
+	border: 1px solid;
+}
+
+#control_panel {
+	margin-top: 20px;
+}
+
+.titleInsta {
+	font-family: Honeymoon;
+	font-size: 20px;
+	margin-top: 10px;
+}
+
+@font-face {
+	font-family: Honeymoon;
+	src: url('../Honeymoon\ Personal\ Use.ttf');
+}
+
+.photosFeed {
+	height: 300px;
+}
